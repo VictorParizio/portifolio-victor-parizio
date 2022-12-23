@@ -12,3 +12,9 @@ body {
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
 }
+
+.centralizado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
