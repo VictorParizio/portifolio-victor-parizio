@@ -19,6 +19,11 @@ body {
     margin: auto;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .centralizado {
     display: flex;
     justify-content: space-between;

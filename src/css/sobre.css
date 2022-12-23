@@ -1,5 +1,4 @@
 .row {
-    display: flex;
     justify-content: center;
 }
 
@@ -34,10 +33,6 @@
 }
 
 @media (max-width: 768px) {
-    .row {
-        flex-wrap: wrap;
-    }
-
     .sobre-mim .imagem-sobre-mim {
         max-width: 70%;
         padding: 0 var(--mobile-padding);
