@@ -12,6 +12,10 @@ body {
     background-color: var(--cor-fundo-cinza-escuro);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
+
+    background: linear-gradient(rgb(0, 26, 38), rgb(0, 26, 38), rgb(3, 55, 67), rgb(3, 55, 67), rgb(15, 120, 123));
+    min-height: 100vh;
+    max-width: 1440px;
 }
 
 .container {
@@ -40,6 +44,7 @@ body {
     margin: 0 4px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    background-color: rgba(0, 26, 38, 0.8);
 }
 
 .redes-sociais a:hover {

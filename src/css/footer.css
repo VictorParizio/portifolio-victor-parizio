@@ -1,8 +1,9 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--cor-fundo-cinza-claro);
+    /* background-color: var(--cor-fundo-cinza-claro); */
     padding: 5rem 0;
+    position: relative;
 }
 
 .footer h2{
@@ -11,4 +12,11 @@
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 20px;
+}
+
+.footer img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }

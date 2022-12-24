@@ -8,10 +8,8 @@
     padding: 40px 20px;
 }
 
-.habilidades .container-habilidades .habilidade p,
-.habilidades .container-habilidades .habilidade h3,
 .habilidades .container-habilidades .habilidade .logo i {
-    transition: all 0.3s ease;
+    font-size: 8rem;
 }
 
 .habilidades .container-habilidades .habilidade h3 {
@@ -25,6 +23,3 @@
     font-family: var(--fonte-secundaria);
 }
 
-.habilidades .container-habilidades .habilidade .logo i {
-    font-size: 8rem;
-}
